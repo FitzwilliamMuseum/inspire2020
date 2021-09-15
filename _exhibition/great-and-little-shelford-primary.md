@@ -2,7 +2,7 @@
 title: Entries from Great and Little Shelford Primary School
 layout: default
 school: shelford
-image: https://static.portal.maa.cam.ac.uk/portal-assets/media/library_images/thumbnail/666080_1921.303_001.png
+image: /images/entries/Finalpiece.jpeg
 ---
 <div class="container mb-3">
   <div class="row">

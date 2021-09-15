@@ -2,7 +2,6 @@
 title: Entries from Samuel  Pepys School
 layout: default
 school: pepys
-image: https://static.portal.maa.cam.ac.uk/portal-assets/media/library_images/thumbnail/666080_1921.303_001.png
 ---
 <div class="container mb-3">
   <div class="row">
