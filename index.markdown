@@ -19,3 +19,5 @@ This new research and resulting app formed part of the final exhibition which wa
 Find out more and hear from some of the children and teachers who took part in the project on the [AccessArt website](https://www.accessart.org.uk/inspire-a-celebration-of-childrens-art-in-response-to-jacopo-del-sellaios-cupid-and-psyche/) and [UCM blog](https://www.museums.cam.ac.uk/blog/2020/01/31/inspire-a-celebration-of-childrens-art/).
 
 Modelled on the National Gallery, London’s, [Take One Picture](https://www.nationalgallery.org.uk/learning/teachers-and-schools/take-one-picture), the project focuses on one painting, Cupid and Psyche by Jacopo del Sellaio, as a source of ideas and inspiration for further creative and cross-curricular enquiry.
+
+[Download the final report here.](/assets/inspireexhibitionreportFINAL.pdf){: .btn .d-block .btn-success }
