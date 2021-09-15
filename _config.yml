@@ -18,12 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Site title"
+title: "Inspire 2020"
 email: "crsid@cam.ac.uk"
 description: >- # this means to ignore newlines until "baseurl:"
-  "Website description"
-baseurl: "/reponame" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  "The Inspire exhibition (December 2019- March 2020) was the culmination of a
+  multi- disciplinary practitioner- led research project exploring explored
+  how museum and artist led teacher training programmes might support art
+  and design teaching in primary schools."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://inspire2020.fitzmuseum.cam.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FitzMuseum_UK
 github_username:  fitzwilliammuseum
 background: ""
@@ -45,18 +48,12 @@ plugins:
 collections:
    exhibition:
       output: true
-   about:
-      output: true
+      permalink: /schools/:path/
    resources:
       output: true
-   team:
-      output: true
-   blog:
-      output: true
-feed:
-  collections:
-    - blog
-
+   entries:
+     output: true
+     permalink: /entries/:path/
 timezone: Europe/London
 permalink: pretty
 encoding: "utf-8"

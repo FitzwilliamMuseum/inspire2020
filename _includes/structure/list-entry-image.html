@@ -1,0 +1,5 @@
+{% if author.image %}
+  <img class="img-fluid" src="{{author.image}}" alt="{{ author.title }}" />
+{% else %}
+  <img class="img-fluid" src="/images/inspire-gallery.jpg" />
+{% endif %}

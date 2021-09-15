@@ -43,24 +43,16 @@ integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeV
 <link href="{{site.baseurl}}/css/site.css" rel="stylesheet" media="screen">
 
 <link rel="icon" href="{{site.baseurl}}/favicon.ico"/>
-<style>
-.head {
-  background-image: url({{site.baseurl}}{{site.background}});
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 90%;
-}
-.parallax {
-  min-height: 75vh!important;
-}
-</style>
-
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" type="text/css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-]
+{% if page.url == "/" %}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+
+{% endif %}
 
 </head>
 <body class="doc-body">
@@ -75,27 +67,19 @@ integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeV
     <!-- Nav bars -->
     {% include /structure/navigation.html %}
 
-    <div class="container-fluid head parallax">
-    </div>
-    <div class="container-fluid bg-white text-black text-center">
+    <div class="container-fluid bg-white text-black text-center mt-5">
       <div class="py-2">
-        <h1 class="shout lead" id="doc-main-h1">{{page.title}}</h1>
+        <h1 class="shout lead mt-4" id="doc-main-h1">{{page.title}}</h1>
       </div>
     </div>
-    {% include /structure/archived.html %}
-
     {% include /structure/breadcrumbs.html %}
 
     <div class="container">
-      {% if page.url == "/explore/" %}
-        {{ content }}
-      {% elsif page.url == "/objects/" %}
-        {{ content }}
-      {% else %}
+
       <div class="col-12 shadow-sm p-3 mx-auto mb-3 mt-3 ">
         {{ content }}
       </div>
-      {% endif %}
+
     </div>
     <!-- Footer logos -->
     <div class="container-fluid bg-white p-2 container-fluid bg-white border-cambridge">
@@ -263,6 +247,18 @@ integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeV
           trigger: 'focus'
         })
       </script>
+
+      {% if page.url == "/" %}
+
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+      <script>
+      pannellum.viewer('panorama', {
+          "type": "equirectangular",
+          "panorama": "https://fitz-cms-images.s3.eu-west-2.amazonaws.com/inspire-2.1-20000-no-tripod.jpg",
+          "autoLoad": true
+      });
+      </script>
+      {%  endif %}
 
   </body>
   </html>
