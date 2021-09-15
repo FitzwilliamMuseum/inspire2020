@@ -3,9 +3,9 @@ layout: default
 title: 'Inspire 2020'
 ---
 
-<div id="panorama"></div>
+<div id="panorama" class="mb-3"></div>
 
-The Inspire exhibition (December 2019- March 2020) was the culmination of a multi- disciplinary practitioner- led research project exploring explored how museum and artist led teacher training programmes might support art and design teaching in primary schools. It was the first exhibition of work made by primary school children at The Fitzwilliam Museum in its 250 year history and was designed in partnership with AccessArt. Inspire celebrates the creativity of local schools and teachers at a time where there has been a significant decline in art specialist staff and training in schools.
+The Inspire exhibition (December 2019- March 2020) was the culmination of a multi-disciplinary practitioner-led research project exploring explored how museum and artist led teacher training programmes might support art and design teaching in primary schools. It was the first exhibition of work made by primary school children at The Fitzwilliam Museum in its 250 year history and was designed in partnership with AccessArt. Inspire celebrates the creativity of local schools and teachers at a time where there has been a significant decline in art specialist staff and training in schools.
 
 The project involved 68 teachers from 40 primary schools who were introduced to a Renaissance panel painting of Cupid and Psyche in a series of training sessions at the museum in early 2019. Schools were then invited to submit work to the end of project exhibition. More than 500 children aged between 4 and 11 visited the museum to look at the painting and more than 3800 studied it at school using specially created digital learning resources. 
 
