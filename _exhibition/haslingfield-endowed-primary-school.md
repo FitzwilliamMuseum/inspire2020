@@ -2,6 +2,7 @@
 title: Entries from Haslingfield Endowed Primary School
 layout: default
 school: haslingfield
+image: /images/entries/roots.png
 ---
 <div class="container mb-3">
   <div class="row">

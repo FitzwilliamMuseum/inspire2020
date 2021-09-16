@@ -1,7 +1,7 @@
 ---
 title: Making and Exchanging Special Boxes
 caption: Reception, Arbury Primary School Mixed media and found objects
-image: /images/entries/EYFS Arbury online _2.jpeg
+image: /images/entries/EYFSArburyonline_2.jpeg
 layout: default
 school: arbury
 ---

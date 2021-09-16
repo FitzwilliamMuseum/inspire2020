@@ -2,7 +2,7 @@
 title: Entries from Stamford Primary School
 layout: default
 school: stamford
-
+image: /images/entries/Picture3_0.jpeg
 ---
 <div class="container mb-3">
   <div class="row">

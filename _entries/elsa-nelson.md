@@ -2,7 +2,7 @@
 title: Elsa Nelson
 school: arbury
 layout: default
-image: /images/entries/Elsa Nelson Arbury.jpeg
+image: /images/entries/ElsaNelsonArbury.jpeg
 caption: Cupid and Psyche
 ---
 

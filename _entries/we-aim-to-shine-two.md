@@ -1,7 +1,7 @@
 ---
 title: 'We aim to shine our light before others'
 school: thriplow
-image: /images/entries/INSPIRE2020 Final Piece - Thriplow CofE School.jpeg
+image: /images/entries/INSPIRE2020FinalPiece-ThriplowCofESchool.jpeg
 layout: default
 caption: Reception, Thriplow CofE Primary School Mixed media
 ---

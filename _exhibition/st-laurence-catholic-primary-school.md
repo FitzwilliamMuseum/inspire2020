@@ -2,6 +2,7 @@
 title: Entries from St laurence Catholic Primary School
 layout: default
 school: laurence
+image: /images/entries/leaves.jpeg
 ---
 <div class="container mb-3">
   <div class="row">

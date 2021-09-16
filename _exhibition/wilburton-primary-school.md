@@ -2,7 +2,7 @@
 title: Entries from Wilburton Primary School
 layout: default
 school: wilburton
-image:
+image: /images/entries/wilb.jpeg
 ---
 <div class="container mb-3">
   <div class="row">

@@ -2,7 +2,7 @@
 title: Entries from Arbury Primary School
 layout: default
 school: arbury
-image: /images/entries/Year 3 Arbury online.jpeg
+image: /images/entries/Year3Arburyonline.jpeg
 ---
 <div class="container mb-3">
   <div class="row">

@@ -2,6 +2,7 @@
 title: Entries from Cheveley Primary School
 layout: default
 school: cheveley
+image: /images/entries/zeus.jpeg
 ---
 <div class="container mb-3">
   <div class="row">
