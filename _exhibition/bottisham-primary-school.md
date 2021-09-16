@@ -2,7 +2,7 @@
 title: Entries from Bottisham Primary School
 layout: default
 school: bottisham
-
+image: /images/entries/Year 6 Bottisham online.jpeg
 ---
 <div class="container mb-3">
   <div class="row">

@@ -69,7 +69,7 @@ integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeV
 
     <div class="container-fluid bg-white text-black text-center mt-5">
       <div class="py-2">
-        <h1 class="shout lead mt-4" id="doc-main-h1">{{page.title}}</h1>
+        <h1 class="shout lead mt-5" id="doc-main-h1">{{page.title}}</h1>
       </div>
     </div>
     {% include /structure/breadcrumbs.html %}
@@ -77,6 +77,9 @@ integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeV
     <div class="container">
 
       <div class="col-12 shadow-sm p-3 mx-auto mb-3 mt-3 ">
+        {%if page.path contains 'entries' %}
+        {% include structure/image.html %}
+        {% endif %}
         {{ content }}
       </div>
 

@@ -2,6 +2,7 @@
 title: Entries from Samuel  Pepys School
 layout: default
 school: pepys
+image: /images/entries/SamuelPepys_0.jpeg
 ---
 <div class="container mb-3">
   <div class="row">

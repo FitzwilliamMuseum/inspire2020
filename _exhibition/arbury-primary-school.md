@@ -2,7 +2,7 @@
 title: Entries from Arbury Primary School
 layout: default
 school: arbury
-image: /images/entries/Elsa Nelson Arbury.jpeg
+image: /images/entries/Year 3 Arbury online.jpeg
 ---
 <div class="container mb-3">
   <div class="row">

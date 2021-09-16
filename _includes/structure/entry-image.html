@@ -1,5 +1,5 @@
-{% if author.image %}
-  <img class="img-fluid" src="{{author.image}}" alt="{{ author.title }}" />
+{% if post.image %}
+  <a href="{{ post.url }}" class="stretched-link"><img class="img-fluid" src="{{post.image}}" alt="{{ post.title }}" /></a>
 {% else %}
-  <img class="img-fluid" src="/images/inspire-gallery.jpg" />
+  <a href="{{ post.url }}" class="stretched-link"><img class="img-fluid" src="/images/inspire-gallery.jpg" /></a>
 {% endif %}
