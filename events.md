@@ -7,7 +7,7 @@ layout: default
 </div>
 
 <div class="text-center mb-3">
-  <img alt="An image of CPD training" src="/images/CPD.jpeg" style="width:100%" class="img-fluid"/>
+  <img alt="An image of CPD training" src="/images/cpd.jpeg" style="width:100%" class="img-fluid"/>
 </div>
 
 
